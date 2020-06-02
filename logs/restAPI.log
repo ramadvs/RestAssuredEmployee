@@ -1,0 +1,68 @@
+2020-06-01 16:56:29 INFO  EmployeesRestAPI:19 - *******started TC001_Get_All_Employees **********
+2020-06-01 16:56:33 INFO  EmployeesRestAPI:87 - *********Checking server type ***************
+2020-06-01 16:56:33 INFO  EmployeesRestAPI:90 - The server type is: nginx/1.16.0
+2020-06-01 16:56:34 INFO  EmployeesRestAPI:97 - ********checking content encoding***********
+2020-06-01 16:56:34 INFO  EmployeesRestAPI:100 - content-encoding is: gzip
+2020-06-01 16:56:34 INFO  EmployeesRestAPI:107 - ********checking content length***********
+2020-06-01 16:56:34 INFO  EmployeesRestAPI:110 - The content legth is 595
+2020-06-01 16:56:34 INFO  EmployeesRestAPI:77 - *********Checking content type/header *********
+2020-06-01 16:56:34 INFO  EmployeesRestAPI:80 - The content type is: application/json;charset=utf-8
+2020-06-01 16:56:34 INFO  EmployeesRestAPI:123 - ***********  Checking Cookies **********
+2020-06-01 16:56:34 INFO  EmployeesRestAPI:33 - ********* Checking response body ************
+2020-06-01 16:56:34 INFO  EmployeesRestAPI:36 - Response Body is: {"status":"success","data":[{"id":"1","employee_name":"Tiger Nixon","employee_salary":"320800","employee_age":"61","profile_image":""},{"id":"2","employee_name":"Garrett Winters","employee_salary":"170750","employee_age":"63","profile_image":""},{"id":"3","employee_name":"Ashton Cox","employee_salary":"86000","employee_age":"66","profile_image":""},{"id":"4","employee_name":"Cedric Kelly","employee_salary":"433060","employee_age":"22","profile_image":""},{"id":"5","employee_name":"Airi Satou","employee_salary":"162700","employee_age":"33","profile_image":""},{"id":"6","employee_name":"Brielle Williamson","employee_salary":"372000","employee_age":"61","profile_image":""},{"id":"7","employee_name":"Herrod Chandler","employee_salary":"137500","employee_age":"59","profile_image":""},{"id":"8","employee_name":"Rhona Davidson","employee_salary":"327900","employee_age":"55","profile_image":""},{"id":"9","employee_name":"Colleen Hurst","employee_salary":"205500","employee_age":"39","profile_image":""},{"id":"10","employee_name":"Sonya Frost","employee_salary":"103600","employee_age":"23","profile_image":""},{"id":"11","employee_name":"Jena Gaines","employee_salary":"90560","employee_age":"30","profile_image":""},{"id":"12","employee_name":"Quinn Flynn","employee_salary":"342000","employee_age":"22","profile_image":""},{"id":"13","employee_name":"Charde Marshall","employee_salary":"470600","employee_age":"36","profile_image":""},{"id":"14","employee_name":"Haley Kennedy","employee_salary":"313500","employee_age":"43","profile_image":""},{"id":"15","employee_name":"Tatyana Fitzpatrick","employee_salary":"385750","employee_age":"19","profile_image":""},{"id":"16","employee_name":"Michael Silva","employee_salary":"198500","employee_age":"66","profile_image":""},{"id":"17","employee_name":"Paul Byrd","employee_salary":"725000","employee_age":"64","profile_image":""},{"id":"18","employee_name":"Gloria Little","employee_salary":"237500","employee_age":"59","profile_image":""},{"id":"19","employee_name":"Bradley Greer","employee_salary":"132000","employee_age":"41","profile_image":""},{"id":"20","employee_name":"Dai Rios","employee_salary":"217500","employee_age":"35","profile_image":""},{"id":"21","employee_name":"Jenette Caldwell","employee_salary":"345000","employee_age":"30","profile_image":""},{"id":"22","employee_name":"Yuri Berry","employee_salary":"675000","employee_age":"40","profile_image":""},{"id":"23","employee_name":"Caesar Vance","employee_salary":"106450","employee_age":"21","profile_image":""},{"id":"24","employee_name":"Doris Wilder","employee_salary":"85600","employee_age":"23","profile_image":""}]}
+2020-06-01 16:56:34 INFO  EmployeesRestAPI:53 - ******* Checking response time ***********
+2020-06-01 16:56:34 INFO  EmployeesRestAPI:56 - The response time is: 907
+2020-06-01 16:56:34 INFO  EmployeesRestAPI:43 - ******* Checking status code **********
+2020-06-01 16:56:34 INFO  EmployeesRestAPI:46 -  Status code is: 200
+2020-06-01 16:56:34 INFO  EmployeesRestAPI:67 - ******* Checking status line ************
+2020-06-01 16:56:34 INFO  EmployeesRestAPI:70 - Status line is: HTTP/1.1 200 OK
+2020-06-01 16:56:34 INFO  EmployeesRestAPI:132 - ******Finished TC001_get_all_employees*********
+2020-06-01 16:56:34 INFO  EmployeesRestAPI:18 - *******started TC002_Get_Single_Employee_Record **********
+2020-06-01 16:56:39 INFO  EmployeesRestAPI:73 - The server type is: nginx/1.16.0
+2020-06-01 16:56:39 INFO  EmployeesRestAPI:81 - The content legth is 75
+2020-06-01 16:56:39 INFO  EmployeesRestAPI:65 - The conetnt type is: application/json;charset=utf-8
+2020-06-01 16:56:39 INFO  EmployeesRestAPI:34 - The response body is: {"status":"failed","message":"Oops! someting issue found to fetch record."}
+2020-06-01 16:56:39 INFO  EmployeesRestAPI:49 - The response time is: 475
+2020-06-01 16:56:39 INFO  EmployeesRestAPI:42 - The status code is: 400
+2020-06-01 16:56:39 INFO  EmployeesRestAPI:57 - The status is: HTTP/1.1 400 Bad Request
+2020-06-01 16:56:39 INFO  EmployeesRestAPI:26 - ******Started TC003_Post_Employee_Record******
+2020-06-01 16:56:44 INFO  EmployeesRestAPI:25 - ******Started TC004_Put_Employee_Record******
+2020-06-01 16:56:48 INFO  EmployeesRestAPI:19 - ****Started TC005Delete_Employee_record********
+2020-06-01 16:56:53 INFO  EmployeesRestAPI:89 - ********Finished TC002_Get_Single_Employee_Record *********
+2020-06-01 16:56:53 INFO  EmployeesRestAPI:102 - ********Finished TC003_Post_Employee_Record *********
+2020-06-01 16:56:53 INFO  EmployeesRestAPI:100 - ********Finished TC004_Put_Employee_Record *********
+2020-06-01 16:56:53 INFO  EmployeesRestAPI:83 - ********Finished TC005_Delete_Employee_Record *********
+2020-06-01 16:58:31 INFO  EmployeesRestAPI:19 - *******started TC001_Get_All_Employees **********
+2020-06-01 16:58:35 INFO  EmployeesRestAPI:87 - *********Checking server type ***************
+2020-06-01 16:58:35 INFO  EmployeesRestAPI:90 - The server type is: nginx/1.16.0
+2020-06-01 16:58:35 INFO  EmployeesRestAPI:97 - ********checking content encoding***********
+2020-06-01 16:58:35 INFO  EmployeesRestAPI:100 - content-encoding is: gzip
+2020-06-01 16:58:35 INFO  EmployeesRestAPI:107 - ********checking content length***********
+2020-06-01 16:58:35 INFO  EmployeesRestAPI:110 - The content legth is 595
+2020-06-01 16:58:35 INFO  EmployeesRestAPI:77 - *********Checking content type/header *********
+2020-06-01 16:58:35 INFO  EmployeesRestAPI:80 - The content type is: application/json;charset=utf-8
+2020-06-01 16:58:35 INFO  EmployeesRestAPI:123 - ***********  Checking Cookies **********
+2020-06-01 16:58:35 INFO  EmployeesRestAPI:33 - ********* Checking response body ************
+2020-06-01 16:58:35 INFO  EmployeesRestAPI:36 - Response Body is: {"status":"success","data":[{"id":"1","employee_name":"Tiger Nixon","employee_salary":"320800","employee_age":"61","profile_image":""},{"id":"2","employee_name":"Garrett Winters","employee_salary":"170750","employee_age":"63","profile_image":""},{"id":"3","employee_name":"Ashton Cox","employee_salary":"86000","employee_age":"66","profile_image":""},{"id":"4","employee_name":"Cedric Kelly","employee_salary":"433060","employee_age":"22","profile_image":""},{"id":"5","employee_name":"Airi Satou","employee_salary":"162700","employee_age":"33","profile_image":""},{"id":"6","employee_name":"Brielle Williamson","employee_salary":"372000","employee_age":"61","profile_image":""},{"id":"7","employee_name":"Herrod Chandler","employee_salary":"137500","employee_age":"59","profile_image":""},{"id":"8","employee_name":"Rhona Davidson","employee_salary":"327900","employee_age":"55","profile_image":""},{"id":"9","employee_name":"Colleen Hurst","employee_salary":"205500","employee_age":"39","profile_image":""},{"id":"10","employee_name":"Sonya Frost","employee_salary":"103600","employee_age":"23","profile_image":""},{"id":"11","employee_name":"Jena Gaines","employee_salary":"90560","employee_age":"30","profile_image":""},{"id":"12","employee_name":"Quinn Flynn","employee_salary":"342000","employee_age":"22","profile_image":""},{"id":"13","employee_name":"Charde Marshall","employee_salary":"470600","employee_age":"36","profile_image":""},{"id":"14","employee_name":"Haley Kennedy","employee_salary":"313500","employee_age":"43","profile_image":""},{"id":"15","employee_name":"Tatyana Fitzpatrick","employee_salary":"385750","employee_age":"19","profile_image":""},{"id":"16","employee_name":"Michael Silva","employee_salary":"198500","employee_age":"66","profile_image":""},{"id":"17","employee_name":"Paul Byrd","employee_salary":"725000","employee_age":"64","profile_image":""},{"id":"18","employee_name":"Gloria Little","employee_salary":"237500","employee_age":"59","profile_image":""},{"id":"19","employee_name":"Bradley Greer","employee_salary":"132000","employee_age":"41","profile_image":""},{"id":"20","employee_name":"Dai Rios","employee_salary":"217500","employee_age":"35","profile_image":""},{"id":"21","employee_name":"Jenette Caldwell","employee_salary":"345000","employee_age":"30","profile_image":""},{"id":"22","employee_name":"Yuri Berry","employee_salary":"675000","employee_age":"40","profile_image":""},{"id":"23","employee_name":"Caesar Vance","employee_salary":"106450","employee_age":"21","profile_image":""},{"id":"24","employee_name":"Doris Wilder","employee_salary":"85600","employee_age":"23","profile_image":""}]}
+2020-06-01 16:58:35 INFO  EmployeesRestAPI:53 - ******* Checking response time ***********
+2020-06-01 16:58:35 INFO  EmployeesRestAPI:56 - The response time is: 862
+2020-06-01 16:58:35 INFO  EmployeesRestAPI:43 - ******* Checking status code **********
+2020-06-01 16:58:35 INFO  EmployeesRestAPI:46 -  Status code is: 200
+2020-06-01 16:58:35 INFO  EmployeesRestAPI:67 - ******* Checking status line ************
+2020-06-01 16:58:35 INFO  EmployeesRestAPI:70 - Status line is: HTTP/1.1 200 OK
+2020-06-01 16:58:35 INFO  EmployeesRestAPI:132 - ******Finished TC001_get_all_employees*********
+2020-06-01 16:58:35 INFO  EmployeesRestAPI:18 - *******started TC002_Get_Single_Employee_Record **********
+2020-06-01 16:58:41 INFO  EmployeesRestAPI:73 - The server type is: nginx/1.16.0
+2020-06-01 16:58:41 INFO  EmployeesRestAPI:81 - The content legth is 75
+2020-06-01 16:58:41 INFO  EmployeesRestAPI:65 - The conetnt type is: application/json;charset=utf-8
+2020-06-01 16:58:41 INFO  EmployeesRestAPI:34 - The response body is: {"status":"failed","message":"Oops! someting issue found to fetch record."}
+2020-06-01 16:58:41 INFO  EmployeesRestAPI:49 - The response time is: 477
+2020-06-01 16:58:41 INFO  EmployeesRestAPI:42 - The status code is: 400
+2020-06-01 16:58:41 INFO  EmployeesRestAPI:57 - The status is: HTTP/1.1 400 Bad Request
+2020-06-01 16:58:41 INFO  EmployeesRestAPI:26 - ******Started TC003_Post_Employee_Record******
+2020-06-01 16:58:45 INFO  EmployeesRestAPI:25 - ******Started TC004_Put_Employee_Record******
+2020-06-01 16:58:50 INFO  EmployeesRestAPI:19 - ****Started TC005Delete_Employee_record********
+2020-06-01 16:58:55 INFO  EmployeesRestAPI:89 - ********Finished TC002_Get_Single_Employee_Record *********
+2020-06-01 16:58:55 INFO  EmployeesRestAPI:102 - ********Finished TC003_Post_Employee_Record *********
+2020-06-01 16:58:55 INFO  EmployeesRestAPI:100 - ********Finished TC004_Put_Employee_Record *********
+2020-06-01 16:58:55 INFO  EmployeesRestAPI:83 - ********Finished TC005_Delete_Employee_Record *********
